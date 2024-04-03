@@ -37,16 +37,46 @@ function App() {
             </span>
             <span>MongoDB</span>
           </span>
+          <span className="languages">
+            <span className="icon">
+              <GoDotFill />
+            </span>
+            <span>Ngrok</span>
+          </span>
         </div>
-        <p>
-          Amet minim
-        </p>
+        <p>Amet minim</p>
         <div className="web_image">
-          <img src="/Rectangle 4.png" alt="" />
+          <img
+            src="/images/flashpage.png"
+            alt=""
+            style={{
+              borderWidth: "2px",
+              borderStyle: "solid",
+              borderColor: "gray",
+            }}
+          />
         </div>
+        <h1>Sign in and Sign up</h1>
+        {/* mobile image */}
         <div className="mobile_image">
-          <img src="/ss.jpeg" alt="" />
-          <img src="/ss.jpeg" alt="" />
+          <img
+            src="/ss.jpeg"
+            alt=""
+            style={{
+              borderWidth: "2px",
+              borderStyle: "solid",
+              borderColor: "gray",
+            }}
+          />
+          <img
+            src="/images/flashpage.png"
+            alt=""
+            style={{
+              borderWidth: "2px",
+              borderStyle: "solid",
+              borderColor: "gray",
+            }}
+          />
         </div>
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>

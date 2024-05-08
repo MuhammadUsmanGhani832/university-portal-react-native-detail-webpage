@@ -1,12 +1,18 @@
 .portal__container {
   max-width: 980px;
+  border: 1px solid rgb(201, 193, 193);
   padding:0 20px;
-  margin: 10px auto 0;
+  padding: 10px ;
+  margin: 0 auto;
+  border-top: none;
+  border-bottom: none;
 }
 
 .detail .title {
   font-size: 34px;
   font-weight: 700;
+  text-align: center;
+  margin:10px 0;
 }
 
 .tools {
@@ -58,6 +64,8 @@
     display: block;
     width: 100%;
     height: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
 }
 
 .detail .mobile_image{
@@ -72,6 +80,8 @@
 .detail .mobile_image img{
     width: 300px;
     height: 600px;
+    border: 1px solid gray;
+    border-radius: 4px;
 }
 
 .footer{
@@ -116,6 +126,24 @@
         width: 100%;
         height: auto;
     }
+    .detail .title {
+    font-size: 25px;
+}
+.languages {
+    font-size: 14px;
+}
+.detail h1 {
+    font-size: 22px;
+}
+.detail h2 {
+    font-size: 19px;
+}
+.detail >p {
+    font-size: 13px;
+}
+.detail .mobile_image img {
+    width: 250px;
+}
 }
 @media screen and (max-width:575px) {
 .detail .title {

@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="portal__container">
       <div className="detail">
-        <div className="title">Online Portal for University Students</div>
+        <div className="title">Online Portal for University Students </div>
         <div className="tools">
           <span className="year">2023</span>
           <span className="languages">
@@ -44,42 +44,64 @@ function App() {
             <span>Ngrok</span>
           </span>
         </div>
-        <p>Amet minim</p>
+        <h1>Detail</h1>
+        <p>Designed and developed a comprehensive university portal app using React Native, catering to administrators, teachers, and students.
+        </p>
         <div className="web_image">
           <img
             src="/images/flashpage.png"
             alt=""
-            style={{
-              borderWidth: "2px",
-              borderStyle: "solid",
-              borderColor: "gray",
-            }}
           />
         </div>
         <h1>Sign in and Sign up</h1>
+        <p>Implemented secure logins, user-specific dashboards, and streamlined features for student, teacher and admin, course enrollment, attendance tracking, and event coordination.
+        </p>
         {/* mobile image */}
         <div className="mobile_image">
           <img
-            src="/ss.jpeg"
+            src="/public/images/login.jpg"
             alt=""
-            style={{
-              borderWidth: "2px",
-              borderStyle: "solid",
-              borderColor: "gray",
-            }}
           />
           <img
-            src="/images/flashpage.png"
+            src="/public/images/admin login.jpg"
             alt=""
-            style={{
-              borderWidth: "2px",
-              borderStyle: "solid",
-              borderColor: "gray",
-            }}
+          />
+          <img
+            src="/public/images/admin dashboard.jpg"
+            alt=""
+          />
+          <img
+            src="/public/images/course list.jpg"
+            alt=""
+          />
+          <img
+            src="/public/images/add course.jpg"
+            alt=""
+          />
+          <img
+            src="/public/images/events.jpg"
+            alt=""
+          />
+          <img
+            src="/public/images/create event.jpg"
+            alt=""
           />
         </div>
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
+        <h1>Features</h1>
+        <p>Transcript viewing, semester-wise subject&#39;s mid-term, final exams, quiz, or assignment marks for individuals.
+        </p>
+        <div className="mobile_image">
+          <img src="/public/images/transcript.jpg" alt="" />
+          <img src="/public/images/result course list.jpg" alt="" />
+          <img src="/public/images/result.jpg" alt="" />
+        </div>
+        <h2></h2>
+        <p>Created an intuitive interface for efficient navigation and data management, enhancing overall university experience.</p>
+        <div className="mobile_image">
+          <img src="/public/images/1.jpg" alt="" />
+          <img src="/public/images/2.jpg" alt="" />
+          <img src="/public/images/3.jpg" alt="" />
+        </div>
       </div>
       <div className="footer">
         <div className="media">
@@ -121,14 +143,13 @@ function App() {
             <BsGithub size={24} />
           </span>
         </div>
-        <p>Copyright ©2024 Muhammad Usman </p>
+        <p style={{ marginTop: 10, fontSize: 12, color: 'gray' }}>Copyright ©2024 Muhammad Usman </p>
       </div>
     </div>
   );
 }
 
 export default App
-
 
 
 
@@ -147,34 +168,98 @@ export default App
 //   return (
 //     <div className="portal__container">
 //       <div className="detail">
-//         <div className="title">Designing Dashboards with usability in mind</div>
+//         <div className="title">Online Portal for University Students </div>
 //         <div className="tools">
-//           <span className="year">2020</span>
+//           <span className="year">2023</span>
 //           <span className="languages">
 //             <span className="icon">
 //               <GoDotFill />
 //             </span>
-//             <span>React</span>
+//             <span>React Native</span>
 //           </span>
 //           <span className="languages">
 //             <span className="icon">
 //               <GoDotFill />
 //             </span>
-//             <span>React</span>
+//             <span>Node js</span>
+//           </span>
+//           <span className="languages">
+//             <span className="icon">
+//               <GoDotFill />
+//             </span>
+//             <span>Express js</span>
+//           </span>
+//           <span className="languages">
+//             <span className="icon">
+//               <GoDotFill />
+//             </span>
+//             <span>MongoDB</span>
+//           </span>
+//           <span className="languages">
+//             <span className="icon">
+//               <GoDotFill />
+//             </span>
+//             <span>Ngrok</span>
 //           </span>
 //         </div>
-//         <p>
-//           Amet minim
+//         <h1>Detail</h1>
+//         <p>Designed and developed a comprehensive university portal app using React Native, catering to administrators, teachers, and students.
 //         </p>
 //         <div className="web_image">
-//           <img src="/Rectangle 4.png" alt="" />
+//           <img
+//             src="/images/flashpage.png"
+//             alt=""
+//           />
 //         </div>
+//         <h1>Sign in and Sign up</h1>
+//         <p>Implemented secure logins, user-specific dashboards, and streamlined features for student, teacher and admin, course enrollment, attendance tracking, and event coordination.
+//         </p>
+//         {/* mobile image */}
 //         <div className="mobile_image">
-//           <img src="/ss.jpeg" alt="" />
-//           <img src="/ss.jpeg" alt="" />
+//           <img
+//             src="/public/images/login.jpg"
+//             alt=""
+//           />
+//           <img
+//             src="/public/images/admin login.jpg"
+//             alt=""
+//           />
+//           <img
+//             src="/public/images/admin dashboard.jpg"
+//             alt=""
+//           />
+//           <img
+//             src="/public/images/course list.jpg"
+//             alt=""
+//           />
+//           <img
+//             src="/public/images/add course.jpg"
+//             alt=""
+//           />
+//           <img
+//             src="/public/images/events.jpg"
+//             alt=""
+//           />
+//           <img
+//             src="/public/images/create event.jpg"
+//             alt=""
+//           />
 //         </div>
-//         <h1>Heading 1</h1>
-//         <h2>Heading 2</h2>
+//         <h1>Features</h1>
+//         <p>Transcript viewing, semester-wise subject&#39;s mid-term, final exams, quiz, or assignment marks for individuals.
+//         </p>
+//         <div className="mobile_image">
+//           <img src="/public/images/transcript.jpg" alt="" />
+//           <img src="/public/images/result course list.jpg" alt="" />
+//           <img src="/public/images/result.jpg" alt="" />
+//         </div>
+//         <h2></h2>
+//         <p>Created an intuitive interface for efficient navigation and data management, enhancing overall university experience.</p>
+//         <div className="mobile_image">
+//           <img src="/public/images/1.jpg" alt="" />
+//           <img src="/public/images/2.jpg" alt="" />
+//           <img src="/public/images/3.jpg" alt="" />
+//         </div>
 //       </div>
 //       <div className="footer">
 //         <div className="media">
@@ -216,10 +301,12 @@ export default App
 //             <BsGithub size={24} />
 //           </span>
 //         </div>
-//         <p>Copyright ©2024 Muhammad Usman </p>
+//         <p style={{ marginTop: 10, fontSize: 12, color: 'gray' }}>Copyright ©2024 Muhammad Usman </p>
 //       </div>
 //     </div>
 //   );
 // }
 
 // export default App
+
+

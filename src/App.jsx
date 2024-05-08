@@ -59,31 +59,31 @@ function App() {
         {/* mobile image */}
         <div className="mobile_image">
           <img
-            src="/public/images/login.jpg"
+            src="/images/login.jpg"
             alt=""
           />
           <img
-            src="/public/images/admin login.jpg"
+            src="/images/admin login.jpg"
             alt=""
           />
           <img
-            src="/public/images/admin dashboard.jpg"
+            src="/images/admin dashboard.jpg"
             alt=""
           />
           <img
-            src="/public/images/course list.jpg"
+            src="/images/course list.jpg"
             alt=""
           />
           <img
-            src="/public/images/add course.jpg"
+            src="/images/add course.jpg"
             alt=""
           />
           <img
-            src="/public/images/events.jpg"
+            src="/images/events.jpg"
             alt=""
           />
           <img
-            src="/public/images/create event.jpg"
+            src="/images/create event.jpg"
             alt=""
           />
         </div>
@@ -91,16 +91,16 @@ function App() {
         <p>Transcript viewing, semester-wise subject&#39;s mid-term, final exams, quiz, or assignment marks for individuals.
         </p>
         <div className="mobile_image">
-          <img src="/public/images/transcript.jpg" alt="" />
-          <img src="/public/images/result course list.jpg" alt="" />
-          <img src="/public/images/result.jpg" alt="" />
+          <img src="/images/transcript.jpg" alt="" />
+          <img src="/images/result course list.jpg" alt="" />
+          <img src="/images/result.jpg" alt="" />
         </div>
         <h2></h2>
         <p>Created an intuitive interface for efficient navigation and data management, enhancing overall university experience.</p>
         <div className="mobile_image">
-          <img src="/public/images/1.jpg" alt="" />
-          <img src="/public/images/2.jpg" alt="" />
-          <img src="/public/images/3.jpg" alt="" />
+          <img src="/images/1.jpg" alt="" />
+          <img src="/images/2.jpg" alt="" />
+          <img src="/images/3.jpg" alt="" />
         </div>
       </div>
       <div className="footer">
